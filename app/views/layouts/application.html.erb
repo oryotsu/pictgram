@@ -27,11 +27,9 @@
               <% end %>
             </li>
             <li>
-              <% if login? %>
                 <%= link_to new_topic_path do %>
                   <%= image_tag 'icons/camera.png' %>
                 <% end %>
-              <% end %>
             </li>
             <li>
               <%= link_to logout_path, method: :delete do %>
